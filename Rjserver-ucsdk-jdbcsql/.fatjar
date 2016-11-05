@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Feb 09 17:45:24 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=Rjserver-ucsdk-jdbcsql.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|Rjserver-uc-web>;<jar|RJBaseDB.jar>;<jar|RjServerBasicutils.jar>;<jar|RJServerLogs.jar>;<jar|log4j-1.2.15.jar>;<jar|RJBaseDB.jar>;<jar|RJServerLogs_fat.jar>;<jar|RjBaseServer-model-utils.jar>;<jar|RjServerBasicutils_fat.jar>;<jar|c3p0-0.9.1.jar>;<jar|dom4j-1.6.1.jar>;<jar|log4j-1.2.15.jar>;<jar|mysql-connector-java-5.1.6-bin.jar>;<jar|annotations-api.jar>;<jar|catalina-ant.jar>;<jar|catalina-ha.jar>;<jar|catalina-tribes.jar>;<jar|catalina.jar>;<jar|ecj-3.3.1.jar>;<jar|el-api.jar>;<jar|jasper-el.jar>;<jar|jasper.jar>;<jar|jsp-api.jar>;<jar|servlet-api.jar>;<jar|tomcat-coyote.jar>;<jar|tomcat-dbcp.jar>;<jar|tomcat-i18n-es.jar>;<jar|tomcat-i18n-fr.jar>;<jar|tomcat-i18n-ja.jar>
+includes=

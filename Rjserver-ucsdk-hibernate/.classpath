@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjServerLibs"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/ant.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/antlr-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/asm.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/cglib-2.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/comm.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-beanutils-1.6.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/htmllexer.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/htmlparser.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/IKAnalyzer3.2.5Stable.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/jdom.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/jta.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/jzlib-1.0.7.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/lucene-core-3.0.3.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/mina-core-2.0.4.jar" sourcepath="D:/tools/apache-mina-2.0.4-src.zip"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/ognl-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjBaseServer-basic-utils"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjBaseServer-basic-db"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjBaseServer-basic-logs"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Rjserver-uc-web"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

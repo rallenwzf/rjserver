@@ -1,0 +1,12 @@
+处理方式一：：：：：
+指令的注解调用处理：
+1、CommandSet 管理命令集
+2、实现ActionCommand接口处理某个指定指令业务
+
+
+
+处理方式二：：：：：
+
+指令的分发处理：
+ResponseActionManager 管理 ResponseAction分发器
+分发器管理多个Executable执行器；通过执行器执行特定的指令id

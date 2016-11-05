@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<item propsId="1" consumeCode="006058785001" moneyNum="10" currencyNum="1" propsName="充值0.1元" attrType="" attrCode="" attrNum=""   />
+<item propsId="2" consumeCode="006058785002" moneyNum="100" currencyNum="10" propsName="充值1元" attrType="" attrCode="" attrNum=""   />
+<item propsId="3" consumeCode="006058785003" moneyNum="200" currencyNum="20" propsName="充值2元" attrType="1" attrCode="" attrNum="200"   />
+<item propsId="4" consumeCode="006058785004" moneyNum="200" currencyNum="20" propsName="充值2元" attrType="3" attrCode="B1002" attrNum="1"   />
+<item propsId="5" consumeCode="006058785005" moneyNum="300" currencyNum="30" propsName="充值3元" attrType="1" attrCode="" attrNum="400"   />
+<item propsId="6" consumeCode="006058785006" moneyNum="300" currencyNum="30" propsName="充值3元" attrType="3" attrCode="B1002" attrNum="2"   />
+<item propsId="7" consumeCode="006058785007" moneyNum="400" currencyNum="40" propsName="充值4元" attrType="1" attrCode="" attrNum="600"   />
+<item propsId="8" consumeCode="006058785008" moneyNum="400" currencyNum="40" propsName="充值4元" attrType="3" attrCode="B1002" attrNum="3"   />
+<item propsId="9" consumeCode="006058785009" moneyNum="400" currencyNum="40" propsName="充值4元" attrType="9" attrCode="" attrNum="1"   />
+<item propsId="10" consumeCode="006058785010" moneyNum="500" currencyNum="50" propsName="充值5元" attrType="1" attrCode="" attrNum="800"   />
+<item propsId="11" consumeCode="006058785011" moneyNum="500" currencyNum="50" propsName="充值5元" attrType="3" attrCode="B1002" attrNum="4"   />
+<item propsId="12" consumeCode="006058785012" moneyNum="600" currencyNum="60" propsName="充值6元" attrType="1" attrCode="" attrNum="1000"   />
+<item propsId="13" consumeCode="006058785013" moneyNum="600" currencyNum="60" propsName="充值6元" attrType="3" attrCode="B1002" attrNum="5"   />
+<item propsId="14" consumeCode="006058785014" moneyNum="600" currencyNum="60" propsName="充值6元" attrType="9" attrCode="" attrNum="3"   />
+<item propsId="15" consumeCode="006058785015" moneyNum="700" currencyNum="70" propsName="充值7元" attrType="" attrCode="" attrNum=""   />
+<item propsId="16" consumeCode="006058785016" moneyNum="800" currencyNum="80" propsName="充值8元" attrType="1" attrCode="" attrNum="1400"   />
+<item propsId="17" consumeCode="006058785017" moneyNum="800" currencyNum="80" propsName="充值8元" attrType="3" attrCode="B1002" attrNum="7"   />
+<item propsId="18" consumeCode="006058785018" moneyNum="800" currencyNum="80" propsName="充值8元" attrType="9" attrCode="" attrNum="5"   />
+<item propsId="19" consumeCode="006058785019" moneyNum="900" currencyNum="90" propsName="充值9元" attrType="" attrCode="" attrNum=""   />
+<item propsId="20" consumeCode="006058785020" moneyNum="1000" currencyNum="100" propsName="充值10元" attrType="" attrCode="" attrNum=""   />
+<item propsId="21" consumeCode="006058785021" moneyNum="1200" currencyNum="120" propsName="充值12元" attrType="" attrCode="" attrNum=""   />
+<item propsId="22" consumeCode="006058785022" moneyNum="1500" currencyNum="150" propsName="充值15元" attrType="" attrCode="" attrNum=""   />
+<item propsId="23" consumeCode="006058785023" moneyNum="1800" currencyNum="180" propsName="充值18元" attrType="" attrCode="" attrNum=""   />
+<item propsId="24" consumeCode="006058785024" moneyNum="2000" currencyNum="200" propsName="充值20元" attrType="1" attrCode="" attrNum="1600"   />
+<item propsId="25" consumeCode="006058785025" moneyNum="2000" currencyNum="200" propsName="充值20元" attrType="3" attrCode="B1002" attrNum="8"   />
+<item propsId="26" consumeCode="006058785026" moneyNum="2200" currencyNum="220" propsName="充值22元" attrType="" attrCode="" attrNum=""   />
+<item propsId="27" consumeCode="006058785027" moneyNum="2500" currencyNum="250" propsName="充值25元" attrType="" attrCode="" attrNum=""   />
+<item propsId="28" consumeCode="006058785028" moneyNum="2800" currencyNum="280" propsName="充值28元" attrType="" attrCode="" attrNum=""   />
+<item propsId="29" consumeCode="006058785029" moneyNum="3000" currencyNum="300" propsName="充值30元" attrType="1" attrCode="" attrNum="2000"   />
+<item propsId="30" consumeCode="006058785030" moneyNum="3000" currencyNum="300" propsName="充值30元" attrType="3" attrCode="B1002" attrNum="10"   />
+</root>

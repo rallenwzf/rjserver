@@ -1,0 +1,7 @@
+在10g中，如果启用flash drop功能，在drop表时，数据库不会直接删除，而是将其放在回收站中，当空间出现短缺时，才会逐渐回收这部分空间。
+bin$表示表放在了回收站，你想要的话还可以找回来
+删除的话一个方法是直接删delete tanle bin$.....;
+另一种方法就是使用 purge table table_name;
+
+select * from user_recyclebin;
+alter system set recyclebin=on scope=memory;

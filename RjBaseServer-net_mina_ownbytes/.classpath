@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjBaseServer-basic-logs"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjBaseServer-basic-utils"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/mina-core-2.0.4.jar" sourcepath="D:/tools/apache-mina-2.0.4-src.zip"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RjBaseServer_protocol-ownbytes"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

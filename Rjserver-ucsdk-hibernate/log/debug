@@ -1,0 +1,196 @@
+13:43:27  INFO [main] (Environment.java:514) - Hibernate 3.2.6
+13:43:27  INFO [main] (Environment.java:547) - hibernate.properties not found
+13:43:27  INFO [main] (Environment.java:681) - Bytecode provider name : cglib
+13:43:27  INFO [main] (Environment.java:598) - using JDK 1.4 java.sql.Timestamp handling
+13:43:27  INFO [main] (Configuration.java:1466) - configuring from file: hibernate.cfg.xml
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmGameupdate.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmGameupdate -> TGSM_GAMEUPDATE
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmServers.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmServers -> TGSM_SERVERS
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmServerUserenterlog.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmServerUserenterlog -> tgsm_server_userenterlog
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmServerUserroles.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmServerUserroles -> tgsm_server_userroles
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucOthersdkUser.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucOthersdkUser -> tuc_othersdk_user
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUserinfo.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUserinfo -> tuc_userinfo
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUserLoginlog.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUserLoginlog -> yuc_user_loginlog
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUserLogoutlog.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUserLogoutlog -> tuc_user_logoutlog
+13:43:27  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUsers.hbm.xml
+13:43:27  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUsers -> tuc_users
+13:43:27  INFO [main] (Configuration.java:1547) - Configured SessionFactory: null
+13:43:27  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TgsmServers.tgsmServerUserroleses -> tgsm_server_userroles
+13:43:27  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TgsmServers.tgsmServerUserenterlogs -> tgsm_server_userenterlog
+13:43:27  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucUserinfos -> tuc_userinfo
+13:43:27  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucUserLogoutlogs -> tuc_user_logoutlog
+13:43:27  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucUserLoginlogs -> yuc_user_loginlog
+13:43:27  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucOthersdkUsers -> tuc_othersdk_user
+13:43:27  INFO [main] (ConnectionProviderFactory.java:72) - Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+13:43:27  INFO [main] (C3P0ConnectionProvider.java:81) - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/sxlm_gamecenter2?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+13:43:27  INFO [main] (C3P0ConnectionProvider.java:82) - Connection properties: {user=root, password=****}
+13:43:27  INFO [main] (C3P0ConnectionProvider.java:85) - autocommit mode: false
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.timeout' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.timeout' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.validate' and c3p0-style property 'c3p0.validate' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.validate' will be used and c3p0-style property 'c3p0.validate' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.minPoolSize' and c3p0-style property 'c3p0.minPoolSize' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.minPoolSize' will be used and c3p0-style property 'c3p0.minPoolSize' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.maxIdleTime' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.maxIdleTime' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idle_test_period' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idle_test_period' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.acquire_increment' and c3p0-style property 'c3p0.acquire_increment' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.acquire_increment' will be used and c3p0-style property 'c3p0.acquire_increment' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.maxPoolSize' and c3p0-style property 'c3p0.maxPoolSize' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.maxPoolSize' will be used and c3p0-style property 'c3p0.maxPoolSize' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'c3p0.max_statements' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'c3p0.max_statements' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+13:43:27  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+13:43:27  INFO [main] (SettingsFactory.java:89) - RDBMS: MySQL, version: 5.0.83-community-nt
+13:43:27  INFO [main] (SettingsFactory.java:90) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+13:43:27  INFO [main] (Dialect.java:152) - Using dialect: org.hibernate.dialect.MySQLDialect
+13:43:27  INFO [main] (TransactionFactoryFactory.java:31) - Using default transaction strategy (direct JDBC transactions)
+13:43:28  INFO [main] (TransactionManagerLookupFactory.java:33) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+13:43:28  INFO [main] (SettingsFactory.java:143) - Automatic flush during beforeCompletion(): disabled
+13:43:28  INFO [main] (SettingsFactory.java:147) - Automatic session close at end of transaction: disabled
+13:43:28  INFO [main] (SettingsFactory.java:154) - JDBC batch size: 15
+13:43:28  INFO [main] (SettingsFactory.java:157) - JDBC batch updates for versioned data: disabled
+13:43:28  INFO [main] (SettingsFactory.java:162) - Scrollable result sets: enabled
+13:43:28  INFO [main] (SettingsFactory.java:170) - JDBC3 getGeneratedKeys(): enabled
+13:43:28  INFO [main] (SettingsFactory.java:178) - Connection release mode: auto
+13:43:28  INFO [main] (SettingsFactory.java:202) - Maximum outer join fetch depth: 2
+13:43:28  INFO [main] (SettingsFactory.java:205) - Default batch fetch size: 1
+13:43:28  INFO [main] (SettingsFactory.java:209) - Generate SQL with comments: disabled
+13:43:28  INFO [main] (SettingsFactory.java:213) - Order SQL updates by primary key: disabled
+13:43:28  INFO [main] (SettingsFactory.java:217) - Order SQL inserts for batching: disabled
+13:43:28  INFO [main] (SettingsFactory.java:386) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+13:43:28  INFO [main] (ASTQueryTranslatorFactory.java:24) - Using ASTQueryTranslatorFactory
+13:43:28  INFO [main] (SettingsFactory.java:225) - Query language substitutions: {}
+13:43:28  INFO [main] (SettingsFactory.java:230) - JPA-QL strict compliance: disabled
+13:43:28  INFO [main] (SettingsFactory.java:235) - Second-level cache: enabled
+13:43:28  INFO [main] (SettingsFactory.java:239) - Query cache: disabled
+13:43:28  INFO [main] (SettingsFactory.java:373) - Cache provider: org.hibernate.cache.NoCacheProvider
+13:43:28  INFO [main] (SettingsFactory.java:254) - Optimize cache for minimal puts: disabled
+13:43:28  INFO [main] (SettingsFactory.java:263) - Structured second-level cache entries: disabled
+13:43:28  INFO [main] (SettingsFactory.java:290) - Statistics: disabled
+13:43:28  INFO [main] (SettingsFactory.java:294) - Deleted entity synthetic identifier rollback: disabled
+13:43:28  INFO [main] (SettingsFactory.java:309) - Default entity-mode: pojo
+13:43:28  INFO [main] (SettingsFactory.java:313) - Named query checking : enabled
+13:43:28  INFO [main] (SessionFactoryImpl.java:161) - building session factory
+13:43:28  INFO [main] (SessionFactoryObjectFactory.java:82) - Not binding factory to JNDI, no JNDI name configured
+13:43:28  INFO [main] (SchemaUpdate.java:115) - Running hbm2ddl schema update
+13:43:28  INFO [main] (SchemaUpdate.java:126) - fetching database metadata
+13:43:28  INFO [main] (SchemaUpdate.java:138) - updating schema
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_GAMEUPDATE
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_SERVERS
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userenterlog
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userroles
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_othersdk_user
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_user_logoutlog
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_userinfo
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_users
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: yuc_user_loginlog
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_GAMEUPDATE
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_SERVERS
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userenterlog
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userroles
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_othersdk_user
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_user_logoutlog
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_userinfo
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_users
+13:43:28  INFO [main] (DatabaseMetadata.java:96) - table not found: yuc_user_loginlog
+13:43:28  INFO [main] (SchemaUpdate.java:160) - schema update complete
+13:45:11  INFO [main] (Environment.java:514) - Hibernate 3.2.6
+13:45:11  INFO [main] (Environment.java:547) - hibernate.properties not found
+13:45:11  INFO [main] (Environment.java:681) - Bytecode provider name : cglib
+13:45:11  INFO [main] (Environment.java:598) - using JDK 1.4 java.sql.Timestamp handling
+13:45:11  INFO [main] (Configuration.java:1466) - configuring from file: hibernate.cfg.xml
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmGameupdate.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmGameupdate -> TGSM_GAMEUPDATE
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmServers.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmServers -> TGSM_SERVERS
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmServerUserenterlog.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmServerUserenterlog -> tgsm_server_userenterlog
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TgsmServerUserroles.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TgsmServerUserroles -> tgsm_server_userroles
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucOthersdkUser.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucOthersdkUser -> tuc_othersdk_user
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUserinfo.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUserinfo -> tuc_userinfo
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUserLoginlog.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUserLoginlog -> yuc_user_loginlog
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUserLogoutlog.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUserLogoutlog -> tuc_user_logoutlog
+13:45:11  INFO [main] (Configuration.java:559) - Reading mappings from resource : cn/game/rjserver/uc/entity/TucUsers.hbm.xml
+13:45:11  INFO [main] (HbmBinder.java:300) - Mapping class: cn.game.rjserver.uc.entity.TucUsers -> tuc_users
+13:45:11  INFO [main] (Configuration.java:1547) - Configured SessionFactory: null
+13:45:11  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TgsmServers.tgsmServerUserroleses -> tgsm_server_userroles
+13:45:11  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TgsmServers.tgsmServerUserenterlogs -> tgsm_server_userenterlog
+13:45:11  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucUserinfos -> tuc_userinfo
+13:45:11  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucUserLogoutlogs -> tuc_user_logoutlog
+13:45:11  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucUserLoginlogs -> yuc_user_loginlog
+13:45:11  INFO [main] (HbmBinder.java:2382) - Mapping collection: cn.game.rjserver.uc.entity.TucUsers.tucOthersdkUsers -> tuc_othersdk_user
+13:45:11  INFO [main] (ConnectionProviderFactory.java:72) - Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+13:45:11  INFO [main] (C3P0ConnectionProvider.java:81) - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/sxlm_gamecenter2?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+13:45:11  INFO [main] (C3P0ConnectionProvider.java:82) - Connection properties: {user=root, password=****}
+13:45:11  INFO [main] (C3P0ConnectionProvider.java:85) - autocommit mode: false
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.timeout' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.timeout' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.validate' and c3p0-style property 'c3p0.validate' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.validate' will be used and c3p0-style property 'c3p0.validate' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.minPoolSize' and c3p0-style property 'c3p0.minPoolSize' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.minPoolSize' will be used and c3p0-style property 'c3p0.minPoolSize' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.maxIdleTime' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.maxIdleTime' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idle_test_period' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idle_test_period' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.acquire_increment' and c3p0-style property 'c3p0.acquire_increment' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.acquire_increment' will be used and c3p0-style property 'c3p0.acquire_increment' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.maxPoolSize' and c3p0-style property 'c3p0.maxPoolSize' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.maxPoolSize' will be used and c3p0-style property 'c3p0.maxPoolSize' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'c3p0.max_statements' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'c3p0.max_statements' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+13:45:11  WARN [main] (C3P0ConnectionProvider.java:210) - Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+13:45:11  INFO [main] (SettingsFactory.java:89) - RDBMS: MySQL, version: 5.0.83-community-nt
+13:45:11  INFO [main] (SettingsFactory.java:90) - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+13:45:11  INFO [main] (Dialect.java:152) - Using dialect: org.hibernate.dialect.MySQLDialect
+13:45:11  INFO [main] (TransactionFactoryFactory.java:31) - Using default transaction strategy (direct JDBC transactions)
+13:45:11  INFO [main] (TransactionManagerLookupFactory.java:33) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+13:45:11  INFO [main] (SettingsFactory.java:143) - Automatic flush during beforeCompletion(): disabled
+13:45:11  INFO [main] (SettingsFactory.java:147) - Automatic session close at end of transaction: disabled
+13:45:11  INFO [main] (SettingsFactory.java:154) - JDBC batch size: 15
+13:45:11  INFO [main] (SettingsFactory.java:157) - JDBC batch updates for versioned data: disabled
+13:45:11  INFO [main] (SettingsFactory.java:162) - Scrollable result sets: enabled
+13:45:11  INFO [main] (SettingsFactory.java:170) - JDBC3 getGeneratedKeys(): enabled
+13:45:11  INFO [main] (SettingsFactory.java:178) - Connection release mode: auto
+13:45:11  INFO [main] (SettingsFactory.java:202) - Maximum outer join fetch depth: 2
+13:45:11  INFO [main] (SettingsFactory.java:205) - Default batch fetch size: 1
+13:45:11  INFO [main] (SettingsFactory.java:209) - Generate SQL with comments: disabled
+13:45:11  INFO [main] (SettingsFactory.java:213) - Order SQL updates by primary key: disabled
+13:45:11  INFO [main] (SettingsFactory.java:217) - Order SQL inserts for batching: disabled
+13:45:11  INFO [main] (SettingsFactory.java:386) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+13:45:11  INFO [main] (ASTQueryTranslatorFactory.java:24) - Using ASTQueryTranslatorFactory
+13:45:11  INFO [main] (SettingsFactory.java:225) - Query language substitutions: {}
+13:45:11  INFO [main] (SettingsFactory.java:230) - JPA-QL strict compliance: disabled
+13:45:11  INFO [main] (SettingsFactory.java:235) - Second-level cache: enabled
+13:45:11  INFO [main] (SettingsFactory.java:239) - Query cache: disabled
+13:45:11  INFO [main] (SettingsFactory.java:373) - Cache provider: org.hibernate.cache.NoCacheProvider
+13:45:11  INFO [main] (SettingsFactory.java:254) - Optimize cache for minimal puts: disabled
+13:45:11  INFO [main] (SettingsFactory.java:263) - Structured second-level cache entries: disabled
+13:45:11  INFO [main] (SettingsFactory.java:290) - Statistics: disabled
+13:45:11  INFO [main] (SettingsFactory.java:294) - Deleted entity synthetic identifier rollback: disabled
+13:45:11  INFO [main] (SettingsFactory.java:309) - Default entity-mode: pojo
+13:45:11  INFO [main] (SettingsFactory.java:313) - Named query checking : enabled
+13:45:12  INFO [main] (SessionFactoryImpl.java:161) - building session factory
+13:45:12  INFO [main] (SessionFactoryObjectFactory.java:82) - Not binding factory to JNDI, no JNDI name configured
+13:45:12  INFO [main] (SchemaUpdate.java:115) - Running hbm2ddl schema update
+13:45:12  INFO [main] (SchemaUpdate.java:126) - fetching database metadata
+13:45:12  INFO [main] (SchemaUpdate.java:138) - updating schema
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_GAMEUPDATE
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_SERVERS
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userenterlog
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userroles
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_othersdk_user
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_user_logoutlog
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_userinfo
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_users
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: yuc_user_loginlog
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_GAMEUPDATE
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: TGSM_SERVERS
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userenterlog
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tgsm_server_userroles
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_othersdk_user
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_user_logoutlog
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_userinfo
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: tuc_users
+13:45:12  INFO [main] (DatabaseMetadata.java:96) - table not found: yuc_user_loginlog
+13:45:12  INFO [main] (SchemaUpdate.java:160) - schema update complete

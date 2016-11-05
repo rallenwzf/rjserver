@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.context.support-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.jdbc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.orm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/tlibs/org.springframework.transaction-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

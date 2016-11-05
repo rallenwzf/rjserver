@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Jul 24 20:56:30 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=E\:\\pro\\rajarcen_com\\workspace\\RjBaseServer-basic-db\\RjBaseServer-basic-db.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=<jar|c3p0-0.9.1.jar>;<jar|dom4j-1.6.1.jar>;<jar|hibernate3.jar>;<jar|log4j-1.2.15.jar>;<jar|org.springframework.asm-3.0.5.RELEASE.jar>;<jar|org.springframework.beans-3.0.5.RELEASE.jar>;<jar|org.springframework.context-3.0.5.RELEASE.jar>;<jar|org.springframework.context.support-3.0.5.RELEASE.jar>;<jar|org.springframework.core-3.0.5.RELEASE.jar>;<jar|org.springframework.expression-3.0.5.RELEASE.jar>;<jar|org.springframework.jdbc-3.0.5.RELEASE.jar>;<jar|org.springframework.orm-3.0.5.RELEASE.jar>;<jar|org.springframework.transaction-3.0.5.RELEASE.jar>
+includes=

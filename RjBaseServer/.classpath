@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/ant.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/antlr-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/asm.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/comm.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-beanutils-1.6.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/serverLibs/RjServerBasicutils.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

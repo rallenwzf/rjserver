@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Jul 24 20:57:56 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=RjBaseServer-basic-logs.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<jar|dom4j-1.6.1.jar>;<jar|log4j-1.2.15.jar>;<jar|RjServerBasicutils.jar>
+includes=

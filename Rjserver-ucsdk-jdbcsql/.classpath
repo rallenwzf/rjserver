@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/RjServerLibs/serverLibs/RJBaseDB.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/serverLibs/RjServerBasicutils.jar"/>
+	<classpathentry kind="lib" path="/RjServerLibs/serverLibs/RJServerLogs.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Rjserver-uc-web"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

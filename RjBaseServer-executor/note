@@ -1,0 +1,4 @@
+
+指令的分发处理：
+ResponseActionManager 管理 ResponseAction分发器
+分发器管理多个Executable执行器；通过执行器执行特定的指令id

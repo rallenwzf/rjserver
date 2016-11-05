@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>Rjserver-uc-web</display-name>
+	<context-param>
+		<param-name>db</param-name>
+		<param-value>/WEB-INF/conf/c3p0db.properties</param-value>
+	</context-param>
+	<!-- 推送sdk计费结果给统计平台 -->
+	<context-param>
+		<param-name>pushUrl</param-name>
+		<param-value></param-value>
+	</context-param>
+	<context-param>
+		<param-name>pushMethod</param-name>
+		<param-value>get,post</param-value>
+	</context-param>
+	<!-- servlet -->
+	<servlet>
+		<description>
+		</description>
+		<display-name>UserApi</display-name>
+		<servlet-name>UserApi</servlet-name>
+		<servlet-class>cn.game.rjserver.uc.web.serverlet.UserApi</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServerApi</display-name>
+		<servlet-name>ServerApi</servlet-name>
+		<servlet-class>cn.game.rjserver.uc.web.serverlet.ServerApi</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserApi</servlet-name>
+		<url-pattern>/UserApi</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServerApi</servlet-name>
+		<url-pattern>/ServerApi</url-pattern>
+	</servlet-mapping>
+	<!-- 移动基地和游戏 -->
+	<servlet>
+		<description>
+		</description>
+		<display-name>RechargeHeyouxiService</display-name>
+		<servlet-name>RechargeHeyouxiService</servlet-name>
+		<servlet-class>cn.game.rjserver.uc.web.sdkpayservice.heyouxi.RechargeHeyouxiService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RechargeHeyouxiService</servlet-name>
+		<url-pattern>/RechargeHeyouxiService</url-pattern>
+	</servlet-mapping>
+	<!-- 测试模拟sdk callback -->
+	<servlet>
+		<description>
+		</description>
+		<display-name>TestService</display-name>
+		<servlet-name>TestService</servlet-name>
+		<servlet-class>cn.game.rjserver.uc.web.sdkpayservice.TestService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestService</servlet-name>
+		<url-pattern>/TestService</url-pattern>
+	</servlet-mapping>
+	<!-- listener -->
+	<listener>
+		<listener-class>cn.game.rjserver.uc.web.serverlet.listener.ServletContextListener</listener-class>
+	</listener>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

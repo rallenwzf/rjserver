@@ -1,0 +1,41 @@
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TGSM_GAMEUPDATE (RESID bigint not null, VERSION bigint not null, VERSIONNAME varchar(100), GAMENAME varchar(100), GAMECODE varchar(20) not null, VERSIONSERIALCODE varchar(40), SRC text, MUSTUPDATE varchar(2), CREATEDATE date, primary key (RESID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TGSM_SERVERS (SERVERID bigint not null, gamecode varchar(20), SERVERNAME varchar(100), serverhosting varchar(100), STATUS smallint, ISCOMMEND smallint, CODE bigint, SORT smallint, REMARK varchar(200), primary key (SERVERID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TGSM_SERVER_USERENTERLOG (LOGID bigint not null, SERVERID bigint not null, USERID varchar(100) not null, UROLEID bigint, ENTERDATE date, primary key (LOGID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TGSM_SERVER_USERROLES (SUROLESID bigint not null, SERVERID bigint, USERID varchar(100) not null, UROLEID bigint, CREATEDATE date, primary key (SUROLESID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TUC_OTHERSDK_USER (TOTHERID bigint not null, USERID bigint not null, SDKUID varchar(50), SDKUNAME varchar(100), SDKTYPE varchar(5), SDKSID varchar(50), STATUS varchar(5), primary key (TOTHERID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TUC_USERINFO (USERINFOID bigint not null, USERID bigint not null, MOBILEBINDFLAG varchar(20), MOBILE varchar(100), EMAIL varchar(100), USERCOIN bigint, REMARK varchar(200), SMSVERIFYCODE varchar(200), IMEI varchar(20), IMSI varchar(20), SCREENWIDTH bigint, SCREENHEIGHT bigint, GAMEVERSION bigint, GAMECODE varchar(10), SYSTEMSDK varchar(50), SYSTEMVERSION varchar(50), CHANNEL varchar(50), PHONEMODE varchar(50), USERIP varchar(20), IDENTIFYCARD varchar(50), INVITATIONCODE varchar(50), primary key (USERINFOID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TUC_USERS (ID bigint not null, USERID varchar(100) unique, USERNAME varchar(100), USERPWD varchar(100), UNAME varchar(100), CREATEDATE date not null, UPDATEDATE date, DELETEFLAG varchar(20), REMARK varchar(200), CREATEMAN varchar(40), UPDATEMAN varchar(40), primary key (ID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TUC_USER_LOGINLOG (LOGID bigint not null, USERID bigint not null, SUCCCODE varchar(50), LOGDATE date, IMEI varchar(20), IMSI varchar(20), SCREENWIDTH bigint, SCREENHEIGHT bigint, GAMEVERSION bigint, GAMECODE varchar(10), SYSTEMSDK varchar(50), SYSTEMVERSION varchar(20), CHANNEL varchar(50), PHONEMODE varchar(50), USERIP varchar(20), primary key (LOGID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: create table WWSSLHDY_SGC.TUC_USER_LOGOUTLOG (LOGID bigint not null, USERID bigint not null, LOGDATE date, primary key (LOGID))
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Unknown database 'wwsslhdy_sgc'
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table WWSSLHDY_SGC.TGSM_SERVER_USERENTERLOG add index FKD6711A8158FF595C (SERVERID), add constraint FKD6711A8158FF595C foreign key (SERVERID) references WWSSLHDY_SGC.TGSM_SERVERS (SERVERID)
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Table 'wwsslhdy_sgc.tgsm_server_userenterlog' doesn't exist
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table WWSSLHDY_SGC.TGSM_SERVER_USERROLES add index FK177A99A858FF595C (SERVERID), add constraint FK177A99A858FF595C foreign key (SERVERID) references WWSSLHDY_SGC.TGSM_SERVERS (SERVERID)
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Table 'wwsslhdy_sgc.tgsm_server_userroles' doesn't exist
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table WWSSLHDY_SGC.TUC_OTHERSDK_USER add index FK4A301823F058431 (USERID), add constraint FK4A301823F058431 foreign key (USERID) references WWSSLHDY_SGC.TUC_USERS (ID)
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Table 'wwsslhdy_sgc.tuc_othersdk_user' doesn't exist
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table WWSSLHDY_SGC.TUC_USERINFO add index FK9A4CCB6F058431 (USERID), add constraint FK9A4CCB6F058431 foreign key (USERID) references WWSSLHDY_SGC.TUC_USERS (ID)
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Table 'wwsslhdy_sgc.tuc_userinfo' doesn't exist
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table WWSSLHDY_SGC.TUC_USER_LOGINLOG add index FK70C68592F058431 (USERID), add constraint FK70C68592F058431 foreign key (USERID) references WWSSLHDY_SGC.TUC_USERS (ID)
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Table 'wwsslhdy_sgc.tuc_user_loginlog' doesn't exist
+15:53:11 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table WWSSLHDY_SGC.TUC_USER_LOGOUTLOG add index FKB2AD7DE3F058431 (USERID), add constraint FKB2AD7DE3F058431 foreign key (USERID) references WWSSLHDY_SGC.TUC_USERS (ID)
+15:53:11 ERROR [main] (SchemaUpdate.java:156) - Table 'wwsslhdy_sgc.tuc_user_logoutlog' doesn't exist
+18:36:56 ERROR [main] (XMLHelper.java:61) - Error parsing XML: XML InputStream(68) Attribute "property-ref" must be declared for element type "one-to-many".
+18:36:56 ERROR [main] (MySessionFactory.java:80) - Error Creating SessionFactory:org.hibernate.InvalidMappingException: Could not parse mapping document from resource cn/game/rjserver/uc/entity/TucUsers.hbm.xml
+18:37:53 ERROR [main] (XMLHelper.java:61) - Error parsing XML: XML InputStream(66) Attribute "property-ref" must be declared for element type "column".
+18:37:53 ERROR [main] (MySessionFactory.java:80) - Error Creating SessionFactory:org.hibernate.InvalidMappingException: Could not parse mapping document from resource cn/game/rjserver/uc/entity/TucUsers.hbm.xml
+18:39:56 ERROR [main] (MySessionFactory.java:80) - Error Creating SessionFactory:org.hibernate.MappingException: property-ref [USERID] not found on entity [cn.game.rjserver.uc.entity.TucUsers]
+18:40:21 ERROR [main] (XMLHelper.java:61) - Error parsing XML: XML InputStream(66) Attribute "property-ref" must be declared for element type "column".
+18:40:21 ERROR [main] (MySessionFactory.java:80) - Error Creating SessionFactory:org.hibernate.InvalidMappingException: Could not parse mapping document from resource cn/game/rjserver/uc/entity/TucUsers.hbm.xml
+18:43:42 ERROR [main] (MySessionFactory.java:80) - Error Creating SessionFactory:org.hibernate.MappingException: property-ref [USERID] not found on entity [cn.game.rjserver.uc.entity.TucUsers]
+18:44:28 ERROR [main] (MySessionFactory.java:80) - Error Creating SessionFactory:org.hibernate.MappingException: Duplicate property mapping of mobilebindflag found in cn.game.rjserver.uc.entity.TucUserinfo
+18:45:52 ERROR [main] (SchemaUpdate.java:155) - Unsuccessful: alter table TUC_USERINFO add index FK9A4CCB6F058431 (USERID), add constraint FK9A4CCB6F058431 foreign key (USERID) references TUC_USERS (ID)
+18:45:52 ERROR [main] (SchemaUpdate.java:156) - Duplicate key name 'FK9A4CCB6F058431'

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/sxlm_gamecenter2?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">111</property>
+		<!-- JDBC connection pool (use the built-in) -->
+		<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+		<property name="c3p0.minPoolSize">3</property>
+		<property name="c3p0.maxPoolSize">15</property>
+		<property name="c3p0.timeout">5000</property>
+		<property name="c3p0.maxIdleTime">1800</property>
+		<property name="c3p0.max_statements">100</property>
+		<property name="c3p0.idle_test_period">3000</property>
+		<property name="c3p0.acquire_increment">2</property>
+		<property name="c3p0.validate">false</property>
+		<!-- <property name="c3p0.acquireRetryAttempts">5</property> SQL dialect -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- Echo all executed SQL to stdout -->
+		<property name="show_sql">false</property>
+		<property name="format_sql">false</property>
+		<!-- Drop and re-create the database schema on startup -->
+		<property name="hbm2ddl.auto">update</property>
+		<!-- mapping -->
+		<mapping resource="cn/game/rjserver/uc/entity/TgsmGameupdate.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TgsmServers.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TgsmServerUserenterlog.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TgsmServerUserroles.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TucOthersdkUser.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TucUserinfo.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TucUserLoginlog.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TucUserLogoutlog.hbm.xml" />
+		<mapping resource="cn/game/rjserver/uc/entity/TucUsers.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>
